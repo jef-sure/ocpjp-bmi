@@ -29,16 +29,16 @@ public class PersonManager {
 	LinkedList<Person> persons = new LinkedList<Person>();
 
 	public void initPersons() {
-		persons.add(new Person("Alexander", true, 185, 100));
-		persons.add(new Person("Anton", true, 170, 80));
-		persons.add(new Person("Cengiz", true, 175, 90));
-		persons.add(new Person("Elmar", true, 190, 120));
-		persons.add(new Person("Fatma", false, 165, 60));
-		persons.add(new Person("Holger", true, 180, 95));
-		persons.add(new Person("Hümeyra", false, 185, 70));
-		persons.add(new Person("Marco", true, 185, 80));
-		persons.add(new Person("Nina", false, 175, 65));
-		persons.add(new Person("Rosemarie", false, 165, 100));
+		persons.add(new Person("Lemuel", true, 185, 100));
+		persons.add(new Person("Ernie", true, 170, 80));
+		persons.add(new Person("Jarred", true, 175, 90));
+		persons.add(new Person("Bradford", true, 190, 120));
+		persons.add(new Person("Emmanuelina", false, 165, 60));
+		persons.add(new Person("Wilfredo", true, 180, 95));
+		persons.add(new Person("Chuckie", false, 185, 70));
+		persons.add(new Person("Wilson", true, 185, 80));
+		persons.add(new Person("Rollandina", false, 175, 65));
+		persons.add(new Person("Emilina", false, 165, 100));
 	}
 
 	private Person findPersonByName(String name) {
@@ -64,7 +64,7 @@ public class PersonManager {
 			System.out.println("7 - speichern aller Personen in csv-Datei");
 			System.out.println("8 - einlesen aller Personen aus csv-Datei");
 			System.out.println("0 - Ende");
-			int choice = Tastatur.inputInteger("Bitte wählen: ");
+			int choice = Tastatur.inputInteger("Bitte wï¿½hlen: ");
 			switch (choice) {
 			case 0:
 				return;
@@ -107,7 +107,7 @@ public class PersonManager {
 				loadCSV();
 				break;
 			default:
-				System.out.println("Ungülige wahl");
+				System.out.println("Ungï¿½lige wahl");
 			}
 		}
 	}

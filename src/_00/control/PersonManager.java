@@ -10,16 +10,16 @@ import _00.model.Person;
 
 public class PersonManager {
 	private static void initPersons(Person[] persons) {
-		persons[0] = new Person("Alexander", true, 185, 100);
-		persons[1] = new Person("Anton", true, 170, 80);
-		persons[2] = new Person("Cengiz", true, 175, 90);
-		persons[3] = new Person("Elmar", true, 190, 120);
-		persons[4] = new Person("Fatma", false, 165, 60);
-		persons[5] = new Person("Holger", true, 180, 95);
-		persons[6] = new Person("Hümeyra", false, 185, 70);
-		persons[7] = new Person("Marco", true, 185, 80);
-		persons[8] = new Person("Nina", false, 175, 65);
-		persons[9] = new Person("Rosemarie", false, 165, 100);
+		persons[0] = new Person("Lemuel", true, 185, 100);
+		persons[1] = new Person("Ernie", true, 170, 80);
+		persons[2] = new Person("Jarred", true, 175, 90);
+		persons[3] = new Person("Bradford", true, 190, 120);
+		persons[4] = new Person("Emmanuelina", false, 165, 60);
+		persons[5] = new Person("Wilfredo", true, 180, 95);
+		persons[6] = new Person("Chuckie", false, 185, 70);
+		persons[7] = new Person("Wilson", true, 185, 80);
+		persons[8] = new Person("Rollandina", false, 175, 65);
+		persons[9] = new Person("Emilina", false, 165, 100);
 	}
 
 	private static int filledPersons(Person[] persons) {
@@ -53,7 +53,7 @@ public class PersonManager {
 			System.out.println("5 - gib alle Person aus sortiert nach Name");
 			System.out.println("6 - gib alle Person aus sortiert nach BMI");
 			System.out.println("0 - Ende");
-			int choice = IOTools.readInt("Bitte wählen: ");
+			int choice = IOTools.readInt("Bitte wï¿½hlen: ");
 			switch (choice) {
 			case 0:
 				return;
@@ -98,7 +98,7 @@ public class PersonManager {
 				printPersons(persons);
 				break;
 			default:
-				System.out.println("Ungülige wahl");
+				System.out.println("Ungï¿½lige wahl");
 			}
 		}
 	}
